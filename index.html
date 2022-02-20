@@ -1,26 +1,167 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HTML and CSS cheatsheet</title>
+        <title>HTML and CSS cheat sheet</title>
         <link href="style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1><a href="#html">HTML</a> and <a href="#css">CSS</a> cheatsheet</h1>
+        <header class="title">
+            <h1><a href="#html">HTML</a> and <a href="#css">CSS</a> cheat sheet</h1>
         </header>
         <!-- HTML section -->
-        <h2 id="html">
-            HTML
-        </h2>
-        <p>
-
-        </p>
+        <section id="html">
+            <h2  class="subtitle">
+                HTML
+            </h2>
+            <div id="basic-tags">
+                <table>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">
+                                Basic Tags
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                &lt;html&gt; &lt;/html&gt;
+                            </td>
+                            <td>
+                                creates an HTML document
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &lt;head&gt; &lt;/head&gt;
+                            </td>
+                            <td>
+                                Sets off the title & other info that isn't displayed
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &lt;body&gt; &lt;/body&gt;
+                            </td>
+                            <td>
+                                Sets off the visible portion of the document
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="tables">
+                <table>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">
+                                Tables
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                &lt;table&gt; &lt;/table&gt;
+                            </td>
+                            <td>
+                                creates a table
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &lt;table&gt; &lt;/table&gt;
+                            </td>
+                            <td>
+                                creates a table
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &lt;tr&gt; &lt;/tr&gt;
+                            </td>
+                            <td>
+                                adds row to table
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &lt;td&gt; &lt;/td&gt;
+                            </td>
+                            <td>
+                                adds data to row
+                            </td>
+                        </tr>
+                    </tbody> 
+                </table>
+            </div>
+        </section>
         <!-- CSS section -->
-        <h2 id="css">
-            CSS
-        </h2>
-        <p>
-            
-        </p>
+        <section id="css">
+            <h2 class="subtitle">
+                CSS
+            </h2>
+            <div id="css-selectors" class="selector">
+                <table>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">
+                                CSS selectors
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a>head</a> 
+                            </td>
+                            <td>
+                                selects the element with the <a>head</a> tag
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>.red</a> 
+                            </td>
+                            <td>
+                                selects the element with the 'red' class
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>#nav</a> 
+                            </td>
+                            <td>
+                                selects the element with the 'nav' id
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>div.row</a> 
+                            </td>
+                            <td>
+                                selects all the elements with the <a>div</a> tag and the 'row' class
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>li a</a> 
+                            </td>
+                            <td>
+                                DOM descendant combinator. All <a>a</a> tags that are a child of <a>li</a> tag
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>div .row *</a> 
+                            </td>
+                            <td>
+                                Selects all elements that are descendant of the elements with <a>div</a> tag and 'row' class
+                            </td>
+                        </tr>
+                    </tbody>                   
+                </table>
+            </div>
+        </section>
     </body>
 </html>
